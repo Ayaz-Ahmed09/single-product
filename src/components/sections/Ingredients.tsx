@@ -81,9 +81,10 @@ export default function Ingredients() {
             </span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            RtopR's formula consists of 13 natural ingredients like Mango Seed
-            Oil and collagen. These components work synergistically to stimulate
-            breast tissue growth and improve the skin's elasticity.
+            RtopR&apos;s formula consists of 13 natural ingredients like Mango
+            Seed Oil and collagen. These components work synergistically to
+            stimulate breast tissue growth and improve the skin&apos;s
+            elasticity.
           </p>
         </div>
 
@@ -91,7 +92,7 @@ export default function Ingredients() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
           {/* Ingredient Cards */}
           <div className="grid sm:grid-cols-2 gap-6">
-            {ingredients.map((ingredient, index) => {
+            {ingredients.map((ingredient) => {
               const Icon = ingredient.icon;
               return (
                 <div

@@ -1,4 +1,4 @@
-import { Heart, Shield, Award, Clock, Check } from "lucide-react";
+import { Heart, Shield, Award, Clock } from "lucide-react";
 
 export default function Footer() {
   return (

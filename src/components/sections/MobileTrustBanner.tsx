@@ -1,10 +1,13 @@
+import Image from "next/image";
 export default function MobileTrustBanner() {
   return (
     <div className="block lg:hidden mt-10 px-4">
       <div className="bg-gradient-to-r from-black- to-gray-700 border border-pink-500/20 rounded-2xl p-4 space-y-3">
-        <img
+        <Image
           src="/images/g.jpg"
-          alt="Doctor Approved Safe Cream"
+          width={500}
+          height={100}
+          alt="Trust Banner"
           className="w-full h-50 object-contain rounded-xl"
         />
 

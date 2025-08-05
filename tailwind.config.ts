@@ -14,14 +14,6 @@ const config: import("tailwindcss").Config = {
         display: ["var(--font-playfair)", "serif"],
       },
       colors: {
-        primary: "#FF1493",
-        "primary-50": "#FFE6F2",
-        "primary-100": "#FFCCE6",
-        "primary-200": "#FF99CC",
-        "primary-300": "#FF66B3",
-        "primary-400": "#FF3399",
-        "primary-500": "#FF1493",
-        "primary-600": "#E6007A",
         background: "#000000",
         foreground: "#ffffff",
         primary: {
